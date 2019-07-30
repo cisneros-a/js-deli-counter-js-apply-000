@@ -10,10 +10,9 @@ function takeANumber(katzDeliLine, name) {
 // to add the name, we use the '.push' feature to add the new name to the
 // end of the array, or the line of customers in this case. We will
 // then return our line with each unique name and their place in line.
-
+var customers = 0
 
 function takeANumber2() {
-  var customers = 0
   customers++
   console.log(`You are number ${customers}`)
 }
