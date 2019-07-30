@@ -15,10 +15,11 @@ function takeANumber(katzDeliLine, name) {
 function takeANumber2() {
   var customers = 0
   customers++
-  return `You are number ${customers}`
+  console.log(`You are number ${customers}`)
 }
 
-
+takeANumber2()
+takeANumber2()
 
 function nowServing(katzDeliLine) {
   if (katzDeliLine.length > 0){
