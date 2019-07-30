@@ -12,6 +12,14 @@ function takeANumber(katzDeliLine, name) {
 // then return our line with each unique name and their place in line.
 
 
+function takeANumber2() {
+  var customers = 0
+  customers++
+  return `You are number ${customers}`
+}
+
+
+
 function nowServing(katzDeliLine) {
   if (katzDeliLine.length > 0){
     return `Currently serving ${katzDeliLine.shift()}.`
